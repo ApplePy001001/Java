@@ -1,0 +1,29 @@
+// Christian Santiago
+// Homework #02 Question 02
+//
+// This program calculates survery data.
+
+package polldata;
+
+public class PollData {
+
+    
+    
+    
+    public static void main(String[] args) 
+    {
+        double custBase = 12467;
+        double weeklyCust;
+        double citrusCust;
+        
+        // Calculate the number of customers that consume energy
+        // drinks on a weekly basis.
+        
+        weeklyCust = custBase * .14;
+        citrusCust = weeklyCust * .64;
+        
+        System.out.println("Weekly energy drink consumers: " + weeklyCust);
+        System.out.println("Citrus energy drink consumers: " + citrusCust);
+    }
+    
+}
